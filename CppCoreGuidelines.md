@@ -132,8 +132,8 @@ We plan to modify and extend this document as our understanding improves and the
 <a name ="S-introduction"></a>
 # In: Introduction
 
-This is a set of core guidelines for modern C++, C++14, and taking likely future enhancements and taking ISO Technical Specifications (TSs) into account.
-The aim is to help C++ programmers to write simpler, more efficient, more maintainable code.
+This is a set of core guidelines for modern C++, C++14, taking likely future enhancements and ISO Technical Specifications (TSs) into account.
+The aim is to help C++ programmers write simpler, more efficient, more maintainable code.
 
 Introduction summary:
 
@@ -183,7 +183,7 @@ Partly to achieve that and partly to minimize obscure code as a source of errors
 the rules also emphasize simplicity and the hiding of necessary complexity behind well-specified interfaces.
 
 Many of the rules are prescriptive.
-We are uncomfortable with rules that simply states "don't do that!" without offering an alternative.
+We are uncomfortable with rules that simply state "don't do that!" without offering an alternative.
 One consequence of that is that some rules can be supported only by heuristics, rather than precise and mechanically verifiable checks.
 Other rules articulate general principles. For these more general rules, more detailed and specific rules provide partial checking.
 
@@ -191,7 +191,7 @@ These guidelines address a core of C++ and its use.
 We expect that most large organizations, specific application areas, and even large projects will need further rules, possibly further restrictions, and further library support.
 For example, hard-real time programmers typically can't use free store (dynamic memory) freely and will be restricted in their choice of libraries.
 We encourage the development of such more specific rules as addenda to these core guidelines.
-Build your ideal small foundation library and use that, rather than lowering you level of programming to glorified assembly code.
+Build your ideal small foundation library and use that, rather than lowering your level of programming to glorified assembly code.
 
 The rules are designed to allow [gradual adoption](#S-modernizing).
 
@@ -206,7 +206,7 @@ The rules are not intended to be minimal or orthogonal.
 In particular, general rules can be simple, but unenforceable.
 Also, it is often hard to understand the implications of a general rule.
 More specialized rules are often easier to understand and to enforce, but without general rules, they would just be a long list of special cases.
-We provide rules aimed as helping novices as well as rules supporting expert use.
+We provide rules aimed at helping novices as well as rules supporting expert use.
 Some rules can be completely enforced, but others are based on heuristics.
 
 These rules are not meant to be read serially, like a book.
